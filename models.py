@@ -8,4 +8,4 @@ class Music(models.Model):
     genre = models.Charfield(max_length=120, null=True, blank=True)
 
     def __str__(self):
-        return 
+        return self.user
